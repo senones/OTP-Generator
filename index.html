@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>OTP Generator</title>
+  <link rel="stylesheet" href="otp.css">
+</head>
+
+<body>
+
+  <div class="container" id="loginContainer">
+    <h1>OTP Generator</h1>
+    <button onclick="generateOTP()">Generate OTP</button>
+    <h2 id="otpDisplay" class="otp"></h2>
+    <div id="otpTimer"></div>
+
+    <hr>
+
+    <h1>Login</h1>
+    <form id="loginForm" onsubmit="handleLogin(event)">
+      <input type="text" id="username" placeholder="Username(admin)" required>
+      <input type="password" id="password" placeholder="Password (OTP)" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <div id="successMessage" style="display:none;">
+      <h2>✅ Login successful!</h2>
+      <div id="logoutTimer"></div>
+    </div>
+    <br>
+    <br>
+    <div>
+      <footer>
+        &copy; 2025 Senon Uzeiroski. All rights reserved.
+      </footer>
+    </div>
+  </div>
+
+  <script src="otp.js"></script>
+</body>
+
+</html>
