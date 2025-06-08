@@ -20,4 +20,4 @@ https://senones.github.io/OTP-Generator/
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
