@@ -11,9 +11,10 @@ A simple client-side OTP (One-Time Password) generator and login system built wi
 - Modern UI with glassmorphism design
 
 ## Live Demo
+![OTPGenerator](https://github.com/user-attachments/assets/7ce7cad7-7fc7-418b-9611-ca79f8529529)
 
 https://senones.github.io/OTP-Generator/
-![OTPGenerator](https://github.com/user-attachments/assets/7ce7cad7-7fc7-418b-9611-ca79f8529529)
+
 
 ## Tech Stack
 
